@@ -49,7 +49,7 @@ export class Content extends Component {
             <label htmlFor="searchInput">Search:</label>
             <input type="text" id="searchInput" onChange={this.handleInputChange} /> {/* add the onChange event handler */}
           </form>
-          <h4>posts found: {this.state.posts.length}</h4>
+          <h4>Posts Found: {this.state.posts.length}</h4>
         </div>
         <div className={css.SearchResults}>
           {
